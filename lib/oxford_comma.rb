@@ -5,8 +5,8 @@ def oxford_comma(array)
   if array.length == 2
     array.join(' and ')
   elsif array.length >= 3
-    array[-1] = "and #{array[-1]}"              #if the size is more than or equal to 
-    array.join(', ')
+    array[-1] = "and #{array[-1]}"              #if the size is more than or equal to 3 add "and" just before the last string of the array
+    array.join(', ')                            #convert by joining comma
   end
 end
 
