@@ -1,8 +1,8 @@
 def oxford_comma(array)
   #array to sring -- .join methods
-  return array.join('') if array.size == 1
+  return array.join('') if array.length == 1
 
-  
+
 
 end
 
